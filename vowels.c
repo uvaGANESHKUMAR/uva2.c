@@ -1,6 +1,5 @@
 include <stdio.h>
-#include <conio.h>
-int main()
+void main()
 {
     char c;
     int isLowercaseVowel, isUppercaseVowel;
@@ -20,5 +19,4 @@ int main()
     else
         printf("%c is a consonant.", c);
     getch();
-    return 0;
 }
